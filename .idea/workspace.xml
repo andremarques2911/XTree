@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e95e4fe-32c7-48e2-8299-62e0fe347290" name="Default Changelist" comment="" />
+    <list default="true" id="2e95e4fe-32c7-48e2-8299-62e0fe347290" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/casom10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/casom11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/casom12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/casom13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/casom3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/casom5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/casom7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/casom9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casoscohen/gabarito-cohen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/cohen/gabarito-cohen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XTree/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XTree/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XTree/Program2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree2$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree3$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgramAtualizado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree3.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +59,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1P6MLwoinSMl4tkcFq1iYwIJKf5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,6 +92,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Program">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="XTree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="XTree" />
@@ -50,9 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProgramAtualizado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgramAtualizado" />
+      <module name="XTree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Run" />
+      <module name="XTree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ProgramAtualizado" />
         <item itemvalue="Application.Program2" />
       </list>
     </recent_temporary>
@@ -78,10 +158,28 @@
       <workItem from="1566950791466" duration="2691000" />
       <workItem from="1566954243272" duration="1558000" />
       <workItem from="1567316007125" duration="11000" />
+      <workItem from="1567821643934" duration="720000" />
+      <workItem from="1568068402921" duration="29000" />
+      <workItem from="1568073796823" duration="505000" />
+      <workItem from="1568148083732" duration="2103000" />
+      <workItem from="1568261430016" duration="12820000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

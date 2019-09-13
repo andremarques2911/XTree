@@ -1,58 +1,61 @@
+import java.io.*;
+import java.util.Scanner;
+
 public class Program {
-    public static void main( String[] args ) {
-        Tree2 tree = new Tree2();
-        /**
-         **  PERCORRE VETOR ATÉ ENCONTRAR O 0
-         **  SE FOR 0, CRIAR NODO COM O VALOR DO ELEMENTO DA ULTIMA POSIÇÃO.
-         *   WHILE( NROE_LEMENTOS ). ARMAZENAR NO VETOR A QUANTIDADE DE FILHOS
-         *   DIMINUIR O TAMANHO DA LISTA PELO NRO_ELEMENTOS
-         **  VERIFICAR SE PODE INSERIR COMO FILHO DA RAIZ, SE NAO PUDER, V
-         *   ERIFICAR A ESQUERDA, SE NAO PUDER, VERIFICAR A DIREITA
-         **  CRIAR UM NODO COM OS ELEMENTOS QUE VEM EM SEQUENCIA DO
-         *   NRO_ELEMEMTOS DA FOLHA WHILE( NRO_ELEMENTOS )
-         **  DECREMENTAR QUANTIDADE DE FILHOS DO NODO PAI
-         */
 
+    private static String[] vetStr;
+    private static int posicao = 0;
+    private static int soma = 0;
+    private static int nodos = 1;
+    private static int altura = 1;
+    private static int maiorAltura = 0;
 
-        String entrada[] = "0 2 69 47".split(" ");
-        int tamanhoEntrada = entrada.length-1;
-        int altura = 1;
-        int maiorAltura = 0;
-        int nodos = 1;
-        int somatorio = 0;
+     private static void xtree() {
+        int qtdFilhos = Integer.parseInt(vetStr[posicao++]);
+        int qtdValores = Integer.parseInt(vetStr[posicao++]);
 
-        for ( int i = 0; i < tamanhoEntrada+1; i++ ) {
-            if ( entrada[i].equals( "0" ) ) {
-                if(maiorAltura < altura) {
-                    maiorAltura = altura;
-                    altura = 0;
-                }
-                int qtdFilhos = Integer.parseInt( entrada[i] );
-                nodos += qtdFilhos;
-                i++;
-                int qtdElementos = Integer.parseInt(entrada[i]);
-                while ( qtdElementos > 0 ) {
-                    i++;
-                    somatorio += Integer.parseInt(entrada[i]);
-                    qtdElementos--;
-                }
-            }
-            else {
-                altura++;
-                int qtdFilhos = Integer.parseInt( entrada[i] );
-                nodos += qtdFilhos;
-                i++;
-                int qtdElementos = Integer.parseInt( entrada[i] );
-                while ( qtdElementos > 0 ) {
-                    somatorio += Integer.parseInt(entrada[tamanhoEntrada]);
-                    qtdElementos--;
-                    tamanhoEntrada--;
-                }
-            }
+        for(int j = 0; j < qtdFilhos; j++) {
+            altura++; nodos++;
+            xtree();
         }
-
-        System.out.println("Altura: " + maiorAltura);
-        System.out.println("Somatorio: " + somatorio);
-        System.out.println("Quantidade nodos: " + nodos);
+        for(int i = 0; i < qtdValores; i++) {
+            soma += Integer.parseInt(vetStr[posicao++]);
+            if(altura > maiorAltura) maiorAltura = altura;
+        }
+        altura--;
     }
+
+    public static void main( String[] args ) {
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Informe o nome de arquivo texto: ");
+        System.out.println("Dica: ( cohen/caso3.txt ou jb/caso5.txt )");
+        String path = ler.nextLine();
+
+        lerArquivo3(path);
+        long start = System.currentTimeMillis();
+        xtree();
+        long elapsed = System.currentTimeMillis() - start;
+
+        // Para converter em segundos = end / 1000
+        // Para converter em minutos = end / 60000
+
+        System.out.println("Total nodos: " + nodos);
+        System.out.println("Altura: " + maiorAltura);
+        System.out.println("Soma: " + soma);
+        System.out.println("Tempo: " + elapsed + " milissegundos");
+    }
+
+    public static void lerArquivo3(String path) {
+        File arquivo = new File("./casos/" + path);
+        try {
+            FileReader fr = new FileReader(arquivo);
+            BufferedReader br = new BufferedReader(fr);
+            vetStr = br.readLine().split(" ");
+            br.close();
+            fr.close();
+        } catch (Exception e) {
+            e.getMessage();
+        }
+    }
+
 }
