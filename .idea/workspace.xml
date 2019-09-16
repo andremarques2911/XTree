@@ -2,49 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e95e4fe-32c7-48e2-8299-62e0fe347290" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/casom10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/casom11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/casom12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/casom13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/casom3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/casom5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/casom7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/casom9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casoscohen/gabarito-cohen.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/casom9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/cohen/gabarito-cohen.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casosjb/jb/casoj9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casos/jb/caso2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casos/jb/caso5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/casos/jb/caso5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/XTree/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XTree/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XTree/Program2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree3$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XTree/Tree3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgramAtualizado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree3.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +124,9 @@
       <workItem from="1568068402921" duration="29000" />
       <workItem from="1568073796823" duration="505000" />
       <workItem from="1568148083732" duration="2103000" />
-      <workItem from="1568261430016" duration="12820000" />
+      <workItem from="1568261430016" duration="13145000" />
+      <workItem from="1568493816576" duration="335000" />
+      <workItem from="1568642443198" duration="1985000" />
     </task>
     <servers />
   </component>

@@ -12,13 +12,13 @@ public class Program {
 
      private static void xtree() {
         int qtdFilhos = Integer.parseInt(vetStr[posicao++]);
-        int qtdValores = Integer.parseInt(vetStr[posicao++]);
+        int qtdElementos = Integer.parseInt(vetStr[posicao++]);
 
-        for(int j = 0; j < qtdFilhos; j++) {
+        for(int i = 0; i < qtdFilhos; i++) {
             altura++; nodos++;
             xtree();
         }
-        for(int i = 0; i < qtdValores; i++) {
+        for(int i = 0; i < qtdElementos; i++) {
             soma += Integer.parseInt(vetStr[posicao++]);
             if(altura > maiorAltura) maiorAltura = altura;
         }
@@ -31,7 +31,7 @@ public class Program {
         System.out.println("Dica: ( cohen/caso3.txt ou jb/caso5.txt )");
         String path = ler.nextLine();
 
-        lerArquivo3(path);
+        lerArquivo(path);
         long start = System.currentTimeMillis();
         xtree();
         long elapsed = System.currentTimeMillis() - start;
@@ -45,7 +45,7 @@ public class Program {
         System.out.println("Tempo: " + elapsed + " milissegundos");
     }
 
-    public static void lerArquivo3(String path) {
+    public static void lerArquivo(String path) {
         File arquivo = new File("./casos/" + path);
         try {
             FileReader fr = new FileReader(arquivo);
